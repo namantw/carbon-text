@@ -1,0 +1,18 @@
+{
+  "name": "carbon-text",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A beatiful simple text-editor",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js",
+    "build": "electron-packager . Carbon"
+  },
+  "author": "Naman Tiwari",
+  "license": "ISC",
+  "devDependencies": {
+    "electron-prebuilt": "^1.4.13",
+    "asar": "^0.14.0",
+    "electron-packager": "^10.1.0"
+  }
+}

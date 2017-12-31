@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>Carbon text</title>
+		<link href="lib/boostrap/css/bootstrap.min.css" rel="stylesheet">
+		<link href="main.css" rel="stylesheet">
+		<script src="lib/ace/ace.js"></script>
+		<script src="editor.js"></script>
+	</head>
+
+	<body onload="onLoad()">
+		<div id="file_name" class="wrapper"></div>
+		<div id="footer_fixed">
+			<button type="button" class="custom-btn" onclick="openLoadFile()">Open </button>
+			<button type="button" class="custom-btn" onclick="saveFile()">Save </button>
+		</div>
+		<div id="input_area" >
+			<div id="input_txt"></div>
+		</div>
+	</body>
+
+</html>
