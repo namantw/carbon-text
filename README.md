@@ -1,2 +1,2 @@
 # carbon-text
-📃 A distraction and gorgeous text editor.
+📃 A distraction-free and gorgeous text editor.
